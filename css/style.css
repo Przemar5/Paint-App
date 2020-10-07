@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.app {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-content: stretch;
+}
+
+#canvas {
+	border: solid 1px black;
+	display: inline-block;
+	/*width: 20rem;*/
+	/*height: 20rem;*/
+	/*margin: 100px;*/
+}
+
+.panel--left {
+	background-color: #e3e3e8;
+	width: 2rem;
+	height: 100%;
+}
+
+.btn--action {
+	padding: .5rem;
+}
